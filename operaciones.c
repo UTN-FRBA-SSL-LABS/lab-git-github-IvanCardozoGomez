@@ -15,8 +15,7 @@ int restar(int a, int b) {
 /* ── multiplicar — implementar en feature/mi-funcion ─────────────────────── */
 
 int multiplicar(int a, int b) {
-    (void)a; (void)b;
-    return 0; /* TODO: implementar */
+    return a * b;
 }
 
 /* ── esPar ────────────────────────────────────────────────────────────────── */
@@ -27,4 +26,9 @@ int esPar(int n) {
 /* ── sumaSeis ────────────────────────────────────────────────────────────────── */
 int sumaSeis(int a, int b){
     return a + b + 6;
+}
+
+//Agrego funcion para sumar dos a un numero
+int sumar2 (int a) {
+    return a + 2;
 }
