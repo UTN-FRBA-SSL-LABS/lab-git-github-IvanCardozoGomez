@@ -25,6 +25,6 @@ int esPar(int n) {
     return (n % 2) == 0; /* version main */
 }
 /* ── sumaSeis ────────────────────────────────────────────────────────────────── */
-int sumaSeis(int a){
-    return a + 6;
+int sumaSeis(int a, int b){
+    return a + b + 6;
 }
