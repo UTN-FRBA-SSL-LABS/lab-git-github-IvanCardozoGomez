@@ -14,13 +14,13 @@ int restar(int a, int b) {
 
 /* ── multiplicar — implementar en feature/mi-funcion ─────────────────────── */
 
-// Multiplica dos números enteros usando el operador *
 int multiplicar(int a, int b) {
-    return a * b;
+    (void)a; (void)b;
+    return 0; /* TODO: implementar */
 }
 
 /* ── esPar ────────────────────────────────────────────────────────────────── */
 
 int esPar(int n) {
-    return (n % 2) == 0;
+    return (n % 2) == 0; /* version main */
 }
